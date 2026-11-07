@@ -1,0 +1,26 @@
+{
+  "name": "Harfix — yangi oʻzbek alifbosi",
+  "short_name": "Harfix",
+  "lang": "uz",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F1F3F6",
+  "theme_color": "#1C6EF2",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

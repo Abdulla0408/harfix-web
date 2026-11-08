@@ -1,20 +1,5 @@
 /* Harfix website. Same look as the apps (Mini App, Windows, Android). */
-:root {
-  --bg: #f1f3f6; --card: #ffffff; --text: #10141a; --hint: #5f6b78; --line: #e1e6ec;
-  --accent: #1c6ef2; --accent-2: #14b8a6; --accent-text: #ffffff; --amber: #ffc53d;
-  --link: #1a63d8; --ok: #1f9d55; --bad: #d64545; --soft: #eef3fd; --radius: 14px;
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #111418; --card: #1c2128; --text: #e8ecf1; --hint: #9aa5b1; --line: #2a313a;
-    --accent: #4c8dff; --link: #7aaaff; --ok: #3cc47c; --bad: #ff6b6b; --soft: #1f2a3b;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #111418; --card: #1c2128; --text: #e8ecf1; --hint: #9aa5b1; --line: #2a313a;
-  --accent: #4c8dff; --link: #7aaaff; --ok: #3cc47c; --bad: #ff6b6b; --soft: #1f2a3b;
-}
+/* colours and the serif: brand.css (made by brand/build.py) */
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }

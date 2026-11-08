@@ -1,0 +1,25 @@
+/* Harfix brand: colours and type. Made by brand/build.py — edit there, not here. */
+@font-face { font-family: "Harfix Serif"; src: url("harfix-serif.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
+:root {
+  --lapis: #1B2F5E; --gold: #C8902E; --gold-2: #E2AC45; --ivory: #F7F2E7; --ink: #18213A;
+  --bg: #F3EEE3; --side: #FBF8F1; --card: #FFFDF8; --text: #18213A; --hint: #5F6678; --line: #E3DACA;
+  --accent: #1B2F5E; --accent-2: #C8902E; --accent-text: #F7F2E7; --link: #2A4580; --amber: #C8902E;
+  --ok: #2E7D4F; --bad: #B3261E; --soft: #ECE5D6; --radius: 14px;
+  --serif: "Harfix Serif", Georgia, "Times New Roman", serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1424; --side: #121A2D; --card: #172036; --text: #EDE7DA; --hint: #A3AABB; --line: #27324E;
+    --accent: #E2AC45; --accent-2: #E2AC45; --accent-text: #18213A; --link: #A9BEEF; --amber: #E2AC45;
+    --ok: #5BBF86; --bad: #F2867E; --soft: #1F2A45;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1424; --side: #121A2D; --card: #172036; --text: #EDE7DA; --hint: #A3AABB; --line: #27324E;
+  --accent: #E2AC45; --accent-2: #E2AC45; --accent-text: #18213A; --link: #A9BEEF; --amber: #E2AC45;
+  --ok: #5BBF86; --bad: #F2867E; --soft: #1F2A45;
+}
+h1, h2, h3, .serif { font-family: var(--serif); font-weight: 700; letter-spacing: -.005em; }
+.wordmark { display: block; height: 1em; width: auto; color: var(--text); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

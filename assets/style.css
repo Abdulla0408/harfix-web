@@ -183,3 +183,4 @@ textarea::placeholder { color: var(--hint); }
 .ol-go { margin-top: 10px; width: 100%; border: 0; border-radius: 10px; padding: 10px; font-weight: 700;
   background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--link); }
 .lead span[lang="uz-Latn"] { white-space: nowrap; }
+.brand .wordmark { display: block; height: 26px; width: auto; margin-top: 2px; }

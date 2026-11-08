@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs>
-<linearGradient id="hx-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1C6EF2"/><stop offset="1" stop-color="#14B8A6"/></linearGradient>
-<radialGradient id="hx-hl" cx=".22" cy=".16" r=".75"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
-<filter id="hx-sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#062a5e" flood-opacity=".28"/></filter>
-</defs><rect width="512" height="512" rx="112" fill="url(#hx-bg)"/><rect width="512" height="512" rx="112" fill="url(#hx-hl)"/><g transform="translate(0,-14)" filter="url(#hx-sh)">
-<g fill="#fff"><rect x="148" y="160" width="62" height="214" rx="16"/><rect x="302" y="160" width="62" height="214" rx="16"/><rect x="200" y="241" width="112" height="52"/></g>
-<g fill="#FFC53D"><circle cx="179" cy="110" r="29"/><circle cx="333" cy="110" r="29"/></g>
-<path d="M333 392 v10 c22 0 34 10 34 24 c0 20 -24 30 -54 24" fill="none" stroke="#FFC53D" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Harfix</title><rect width="512" height="512" rx="112" fill="#1B2F5E"/><g transform="translate(130.7 401.0) scale(0.34940)"><path fill="#F7F2E7" d="M244 -297V-164Q244 -110 249.0 -84.5Q254 -59 272.5 -51.0Q291 -43 331 -40V0H16V-40Q57 -43 75.5 -51.0Q94 -59 99.5 -83.0Q105 -107 105 -157V-568Q105 -681 98 -716Q93 -742 77.0 -748.5Q61 -755 19 -755V-792L242 -830V-461H246Q277 -502 315.5 -521.0Q354 -540 409 -540Q459 -540 497.5 -524.5Q536 -509 563 -477Q589 -446 602.5 -404.5Q616 -363 616 -319V-164Q616 -109 621.0 -83.5Q626 -58 644.0 -50.5Q662 -43 701 -40V0H388V-40Q428 -42 447.0 -50.0Q466 -58 471.5 -82.5Q477 -107 477 -157V-280Q477 -387 454.0 -430.5Q431 -474 375 -474Q344 -474 321.0 -463.0Q298 -452 281 -431Q262 -407 253.0 -372.5Q244 -338 244 -297Z"/><circle cx="414" cy="-676" r="68" fill="#E2AC45"/><circle cx="590" cy="-676" r="68" fill="#E2AC45"/></g></svg>

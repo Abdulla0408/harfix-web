@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abdulla0408.github.io/harfix-web/sitemap.xml
+Sitemap: https://harfix.uz/sitemap.xml

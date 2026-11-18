@@ -169,3 +169,8 @@ textarea::placeholder { color: var(--hint); }
   background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--link); }
 .lead span[lang="uz-Latn"] { white-space: nowrap; }
 .brand .wordmark { display: block; height: 26px; width: auto; margin-top: 2px; }
+.changelog { margin-top: 12px; }
+.changelog h3 { font-size: 17px; margin: 14px 0 4px; }
+.changelog details { margin-top: 12px; }
+.changelog summary { cursor: pointer; color: var(--link); font-weight: 600; }
+.dl .btn.big + .btn.big { font-size: 15px; }
